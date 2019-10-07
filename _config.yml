@@ -15,7 +15,6 @@ sidebar-about-description: "A wise man foresees and mitigates risks!"
 sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
-
 # SNS settings
 RSS: false
 weibo_username:     dulunar
@@ -26,22 +25,17 @@ jianshu_username:   79150c347235
 twitter_username:   dulunar
 
 
-
-
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          
-# if you want to customize anchor. check out line:181 of `post.html`
-
+anchorjs: true       # if you want to customize anchor. check out line:181 of `post.html`
 
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-
 
 
 # Markdown settings
@@ -51,10 +45,7 @@ gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            
-  # use Github Flavored Markdown !important
-
-
+  input: GFM          # use Github Flavored Markdown !important
 
 # 评论系统
 # Disqus（https://disqus.com/）
@@ -72,7 +63,6 @@ gitalk:
 
 
 # 统计
-
 # Analytics settings
 # Baidu Analytics
 ba_track_id: 2474e4b0050de4b3f4cea635cb6935c0
@@ -82,19 +72,14 @@ ga_track_id: 'UA-149381501-1'            # Format: UA-xxxxxx-xx
 ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
-
-
-
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
 
-
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
-
 
 
 # Friends
