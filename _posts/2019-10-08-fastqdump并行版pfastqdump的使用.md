@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      fastq-dump并行版pfastq-dump的使用
+title:      fastqdump并行版pfastqdump的使用
 subtitle:    "\"并行版fastq-dump\""
 date:       2019-10-08
 author:     dulunar
@@ -74,4 +74,4 @@ for id in SRR799545  SRR799544;    do pfastq-dump --threads 10 -s $id --split-3 
 
 我试过了，这个软件没有想象中的快，所以还在找其他的。
 
-				—— dulunar 后记于 2018.9
+																	—— dulunar 后记于 2018.9
