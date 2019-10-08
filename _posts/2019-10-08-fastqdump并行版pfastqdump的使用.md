@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      fastqdump并行版pfastqdump的使用
-subtitle:    "\"并行版fastq-dump\""
+title:      fastq-dump并行版pfastq-dump的使用
+subtitle:    并行版fastq-dump
 date:       2019-10-08
 author:     dulunar
 header-img: img/post-bg-2015.jpg
@@ -11,8 +11,8 @@ tags:
 	- SRA
 ---
 
-> “🙉🙉🙉 ”
 
+> “🙉🙉🙉 ”
 
 ## 前言
 
