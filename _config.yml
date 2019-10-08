@@ -12,7 +12,7 @@ github_repo: "https://github.com/dulunar/lunar.github.io.git" # you code reposit
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "A wise man foresees and mitigates risks!"
-sidebar-avatar: /img/avatar_ln.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-ln.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # SNS settings
