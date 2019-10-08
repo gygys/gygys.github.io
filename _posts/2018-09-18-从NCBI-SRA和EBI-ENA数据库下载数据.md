@@ -114,10 +114,7 @@ NCBI 开发了 sratoolkit 工具来帮助处理 SRA 数据，正确配置后可�
 ```
 
 #### ascp进行ENA数据库下载
-从ENA数据库进行下载，ENA数据库的数据存放位置是***fasp.sra.ebi.ac.uk****，ENA在Aspera的用户名是***era-fasp***，****era-fasp@fasp.sra.ebi.ac.uk***。如果要从ENA数据库下载[SRR2976573](https://www.ebi.ac.uk/ena/data/view/SRR2976573)，我们先搜索：
-![ENA界面简介](C:\Users\dulun\Desktop\13150724-ef0648c9291f55ec.png)
-
-从截图中，我们可以发现我们可以自己设定显示哪些title（如：FASTQ files (Aspera)、FASTQ files (FTP)、NCBI SRA file (FTP)、NCBI SRA file (Aspera)）在表格中，再点击下载TEXT，可以在本地保存需要的信息，以便后期的数据下载。
+从ENA数据库进行下载，ENA数据库的数据存放位置是***fasp.sra.ebi.ac.uk****，ENA在Aspera的用户名是***era-fasp***，****era-fasp@fasp.sra.ebi.ac.uk***。如果要从ENA数据库下载[SRR2976573](https://www.ebi.ac.uk/ena/data/view/SRR2976573)，我们先搜索该number，在搜索结果页面中，我们可以发现我们可以自己设定显示哪些title（如：FASTQ files (Aspera)、FASTQ files (FTP)、NCBI SRA file (FTP)、NCBI SRA file (Aspera)）在表格中，再点击下载TEXT，可以在本地保存需要的信息，以便后期的数据下载。
 
 单个数据下载例子，可以是sra文件，也可以是fastq.gz文件：
 ```shell
