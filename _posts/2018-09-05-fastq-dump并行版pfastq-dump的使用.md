@@ -2,7 +2,7 @@
 layout:     post
 title:      fastq-dump并行版pfastq-dump的使用
 subtitle:    并行版fastq-dump
-date:       2019-10-08
+date:       2018-09-05
 author:     dulunar
 header-img: img/post-bg-2015.jpg
 catalog: true
