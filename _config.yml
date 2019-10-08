@@ -1,7 +1,7 @@
 # Site settings
 title: Luna's Blog
 SEOTitle: 鲁娜的博客 | Luna's Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/home-bg-art.jpg
 email: dulunar@gmail.com
 description: "As heaven maintains vigor through movements, a gentleman should constantly strive for self-perfection."
 keyword: "LN, Luna's Blog, 鲁娜的博客, dulunar, 鲁娜, Bioinformatics, Genome, Single-Cell, Sequence."
@@ -12,7 +12,7 @@ github_repo: "https://github.com/dulunar/lunar.github.io.git" # you code reposit
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "A wise man foresees and mitigates risks!"
-sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar_ln.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # SNS settings
