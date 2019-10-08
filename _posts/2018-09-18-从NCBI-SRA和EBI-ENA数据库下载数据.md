@@ -128,12 +128,7 @@ ascp -v -QT -l 400m -P33001 -k1 -i ~/.aspera/connect/etc/asperaweb_id_dsa.openss
 ascp -v -QT -l 400m -P33001 -k1 -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh  era-fasp@fasp.sra.ebi.ac.uk:/vol1/fastq/SRR297/003/SRR2976573/SRR2976573_1.fastq.gz  ~/rawdata/ascp/
 ascp -v -QT -l 400m -P33001 -k1 -i ~/.aspera/connect/etc/asperaweb_id_dsa.openssh era-fasp@fasp.sra.ebi.ac.uk:/vol1/fastq/SRR297/003/SRR2976573/SRR2976573_2.fastq.gz  ~/rawdata/ascp/
 ```
-批量从ENA下载数据，比如我们在ENA搜索[SRP067062](https://www.ebi.ac.uk/ena/data/view/PRJNA305211)，我们得到如下截图：
-![SRP067062/ PRJNA305211截图](C:\Users\dulun\Desktop\13150724-8039dbc05af39fb0.png)
-
-结果设置显示项目，再下载TEXT，我们可以得到：
-![aspera的链接显示](C:\Users\dulun\Desktop\13150724-7eca8abf3a988f07.png)
-
+批量从ENA下载数据，比如我们在ENA搜索[SRP067062](https://www.ebi.ac.uk/ena/data/view/PRJNA305211)，我们得到该number的页面，在搜索结果中设置显示项目，再下载TEXT，我们导入到excel中，截取需要的字段，如下：
 分为SRA文件的txt和FASTQ文件的TXT：
 ```markdown
 ####ENA-Aspera-FASTQ.txt：
@@ -168,7 +163,9 @@ Aspera Connect的下载速度是最快的，相对于sratoolkit的套件下载�
 
 ### References
 [SRA数据加速下载打包解决](https://anjingwd.github.io/AnJingwd.github.io/2017/08/06/SRA格式数据加速下载打包解决/)
+
 [使用aspera下载.fastq.gz和.sra数据](https://blog.csdn.net/herokoking/article/details/78890567)
+
 [第1节. 公共数据库获取数据](https://ngs-data-for-pathogen-analysis.readthedocs.io/zh_CN/latest/chapter_01/01_get_data.html)
 
 								—— dulunar 后记于 2018.9
