@@ -165,4 +165,4 @@ Aspera Connect的下载速度是最快的，相对于sratoolkit的套件下载�
 
 [第1节. 公共数据库获取数据](https://ngs-data-for-pathogen-analysis.readthedocs.io/zh_CN/latest/chapter_01/01_get_data.html)
 
-								—— dulunar 后记于 2018.9
+							—— dulunar 后记于 2018.9

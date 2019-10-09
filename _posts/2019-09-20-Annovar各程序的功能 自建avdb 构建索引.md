@@ -14,7 +14,7 @@ tags:
 ---
 
 ##### ANNOVAR的程序模块（本人目录）
-```shell
+```markdown
 ├── annotate_variation.pl   //annovar主程序，功能包括下载数据库，三种不同的注释
 ├── annovar_index.pl   //index构建的程序，对于染色体是第一列的文件有效，修改网上程序
 ├── coding_change.pl   //用来推断蛋白质序列的程序
@@ -112,4 +112,4 @@ close OUT;
 ```
 对于一般的数据库，就是Chr、Start、End、Score的类型的文件没有问题，可以使用；
 
-​								—— dulunar 后记于 2019.09
+ 								—— dulunar 后记于 2019.09
