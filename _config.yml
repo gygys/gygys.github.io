@@ -3,15 +3,15 @@ title: Luna's Blog
 SEOTitle: 鲁娜的博客 | Luna's Blog
 header-img: img/home-bg-glax.jpg
 email: dulunar@gmail.com
-description: "As heaven maintains vigor through movements, a gentleman should constantly strive for self-perfection."
+description: "天行健，君子以自强不息；地势坤，君子以厚德载物"
 keyword: "LN, Luna's Blog, 鲁娜的博客, dulunar, 鲁娜, Bioinformatics, Genome, Single-Cell, Sequence."
-url: "http://lunar.github.io"          # your host, for absolute URL
+url: "http://dulunar.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/dulunar/lunar.github.io.git" # you code repository
+github_repo: "https://github.com/dulunar/dulunar.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "A wise man foresees and mitigates risks!"
+sidebar-about-description: "有一日未死之身，则有一日未闻之道"
 sidebar-avatar: /img/avatar-ln.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -54,9 +54,9 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 4a8bbb2671cf6982b332                            #生成的clientID
-  clientSecret: 2b43e9ce9d36928af062927bf097b45da7d1f2e6    #生成的clientSecret
-  repo: lunar.github.io    #仓库名称
+  clientID: 8d384703e14f9a496e32                            #生成的clientID
+  clientSecret: a2a487d6d3b84b1b72f23c5aefc08a80caa7e2cc    #生成的clientSecret
+  repo: dulunar.github.io    #仓库名称
   owner: dulunar    #github用户名
   admin: dulunar
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
