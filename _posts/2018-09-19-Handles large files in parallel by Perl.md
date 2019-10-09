@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Perl并行处理大文件
+title:      Handles large files in parallel by Perl
 subtitle:   Perl处理文件
 date:       2018-09-19
 author:     dulunar
