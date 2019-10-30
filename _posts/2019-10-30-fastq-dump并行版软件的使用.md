@@ -72,11 +72,12 @@ for id in SRR799545  SRR799544;    do pfastq-dump --threads 10 -s $id --split-3 
 ```
 我试过了，这个软件没有想象中的快，所以还在找其他的。
 
-***UPDATE 20191030:***
+#### ***UPDATE 20191030:***
 因为上述所说的`pfastq-dump`没有达到我的目标，在`ncbi`的官方工具中，发现最新版的sratoolkit中有一个`fasterq-dump，a faster fastq-dump`的软件，[官方介绍在这里](https://github.com/ncbi/sra-tools/wiki/HowTo:-fasterq-dump)，从官方介绍中可以发现`fasterq-dump`利用了临时文件和多线程的方式来提升提取`fastq`文件的速度，而且`fasterq-dump`的用法和`fastq-dump`是一样的，例子如下：
+
 ```shell
 ##建议使用最新版，现在的sratool的最新稳定版本是2.9.6，在github上面的release版本是2.10.0，如果不愿意自己安装的可以到[ncbi官方ftp下载](https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/)，想自己在服务器上安装的请参考[官方介绍](https://github.com/ncbi/sra-tools/wiki/Building-and-Installing-from-Source)
-```shell
+​```shell
 wget -O sratoolkit.tar.gz  https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
 tar xzvf sratoolkit.tar.gz
 echo 'PATH=/path/of/the/sratoolkit-2.9.6/bin:$PATH' >> ~/.bashrc
