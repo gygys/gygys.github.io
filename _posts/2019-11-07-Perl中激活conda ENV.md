@@ -43,8 +43,9 @@ See 'conda init --help' for more information and options.
 
 IMPORTANT: You may need to close and restart your shell after running 'conda init'.
 ```
+这里表明没有进入conda的环境，设置有问题。
 
-先使用source激活，再activate env：
+于是先使用source激活，再activate env：
 ```perl
 `source /home/luna/Desktop/Software/miniconda3/bin/activate && conda activate hlaopti`;
 ```
@@ -58,9 +59,6 @@ vi hlaopti.sh
 #!/bin/bash
 #-----------------------------------------------------------------------------------
 # FileName: hlaopti.sh
-# Version: 43073a76-cb57-4182-83e5-24c4bd041c0a
-# Author: Luna <nlu@seu.edu.cn>
-# CreatedTime: Thu Nov  7 12:47:17 2019
 #-----------------------------------------------------------------------------------
 conda activate hlaopti
 ```
@@ -96,9 +94,6 @@ vi hlaopti.sh
 #!/bin/bash
 #-----------------------------------------------------------------------------------
 # FileName: hlaopti.sh
-# Version: 43073a76-cb57-4182-83e5-24c4bd041c0a
-# Author: Luna <nlu@seu.edu.cn>
-# CreatedTime: Thu Nov  7 12:47:17 2019
 #-----------------------------------------------------------------------------------
 
 # >>> conda initialize >>>
@@ -137,8 +132,10 @@ system "bash", "/home/luna/Desktop/Software/PIDsAnno/hlaopti.sh";
 
 
 ## 参考
-[How to run “source” command (Linux) from a perl script][1]
+[Conda activate not working][1]
+[How to run “source” command (Linux) from a perl script][2]
 
-[1](https://stackoverflow.com/questions/33781557/how-to-run-source-command-linux-from-a-perl-script)
+[1](https://stackoverflow.com/questions/47246350/conda-activate-not-working)
+[2](https://stackoverflow.com/questions/33781557/how-to-run-source-command-linux-from-a-perl-script)
 
 									—— dulunar 后记于 2019.11
