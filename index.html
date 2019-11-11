@@ -6,6 +6,9 @@ description: "一个人，只要他够胖，哪怕他认真地在看书，都像
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<script async src="https://cse.google.com/cse.js?cx=001100816029321036344:nn8z3vceg21"></script>
+<div class="gcse-search"></div>
+
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -20,11 +23,7 @@ description: "一个人，只要他够胖，哪怕他认真地在看书，都像
         <div class="post-content-preview">
             {{ post.content | strip_html | truncate:200 }}
         </div>
-    </a>
-	
-	<script async src="https://cse.google.com/cse.js?cx=001100816029321036344:nn8z3vceg21"></script>
-	<div class="gcse-search"></div>
-    
+    </a>    
 	<p class="post-meta">
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
     </p>
