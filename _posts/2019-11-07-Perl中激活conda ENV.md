@@ -133,9 +133,10 @@ system "bash", "/home/luna/Desktop/Software/PIDsAnno/hlaopti.sh";
 
 ## 参考
 [Conda activate not working][1]
+
 [How to run “source” command (Linux) from a perl script][2]
 
-[1](https://stackoverflow.com/questions/47246350/conda-activate-not-working)
-[2](https://stackoverflow.com/questions/33781557/how-to-run-source-command-linux-from-a-perl-script)
+[1]: https://stackoverflow.com/questions/47246350/conda-activate-not-working
+[2]: https://stackoverflow.com/questions/33781557/how-to-run-source-command-linux-from-a-perl-script
 
 									—— dulunar 后记于 2019.11
