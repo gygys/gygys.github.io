@@ -39,13 +39,16 @@ cpanm -v --notest -l /home/luna/perl5 Perl4::CoreLibs
 
 ## 参考
 [Linux上安装Perl模块的两种方法][1]
+
 [使用 cpanm 安装 Perl 模块][2]
+
 [perl library getopts.pl][3]
+
 [Perl4::CoreLibs][4]
 
-[1](https://www.cnblogs.com/zhangchaoyang/articles/2610573.html)
-[2](http://www.voidcn.com/article/p-bqegompd-ee.html)
-[3](https://unix.stackexchange.com/questions/224716/perl-library-getopts-pl)
-[4](https://metacpan.org/pod/release/ZEFRAM/Perl4-CoreLibs-0.003/lib/Perl4/CoreLibs.pm)
+[1]: https://www.cnblogs.com/zhangchaoyang/articles/2610573.html
+[2]: http://www.voidcn.com/article/p-bqegompd-ee.html
+[3]: https://unix.stackexchange.com/questions/224716/perl-library-getopts-pl
+[4]: https://metacpan.org/pod/release/ZEFRAM/Perl4-CoreLibs-0.003/lib/Perl4/CoreLibs.pm
 
 									—— dulunar 后记于 2019.11
