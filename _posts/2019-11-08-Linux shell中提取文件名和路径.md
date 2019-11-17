@@ -191,12 +191,14 @@ echo $dir
 ## 参考
 
 [Shell 截取文件名和后缀][2]
+
 [Linux shell 之 提取文件名和目录名的一些方法][3]
+
 [Perl4::CoreLibs][4]
 
-[1](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
-[2](http://zuyunfei.com/2016/03/23/Shell-Truncate-File-Extension/)
-[3]( https://blog.csdn.net/ljianhui/article/details/43128465 )
-[4](https://metacpan.org/pod/release/ZEFRAM/Perl4-CoreLibs-0.003/lib/Perl4/CoreLibs.pm)
+[1]: https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html
+[2]: http://zuyunfei.com/2016/03/23/Shell-Truncate-File-Extension/
+[3]: https://blog.csdn.net/ljianhui/article/details/43128465 
+[4]: https://metacpan.org/pod/release/ZEFRAM/Perl4-CoreLibs-0.003/lib/Perl4/CoreLibs.pm
 
 									—— dulunar 后记于 2019.11
