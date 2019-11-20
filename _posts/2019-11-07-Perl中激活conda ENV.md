@@ -106,8 +106,11 @@ else
         . "/home/luna/Desktop/Software/miniconda3/etc/profile.d/conda.sh"
     else
         export PATH="/home/luna/Desktop/Software/miniconda3/bin:$PATH"
+    
     fi
+
 fi
+
 unset __conda_setup
 # <<< conda initialize <<<
 
