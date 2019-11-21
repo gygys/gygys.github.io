@@ -13,7 +13,7 @@ tags:
 
 ## 前言
 最近刚回来，发现实验室服务器各种bug，首先apt升级了一些软件，然后老版本的R 3.3.1升级到了3.6.1，于是乎出现以前安装的包不能在当前版本用
-```R
+```shell
 package ‘scales’ was installed by an R version with different internals; it needs to be reinstalled for use with this R version
 ```
 于是跟着更新了一下：
@@ -47,10 +47,12 @@ Sys.getenv("LD_LIBRARY_PATH")
 
 ### 清洗器解决方法
 使用`withr::with_makevars`，这个方法允许临时控制`Makevars`内容，使用这个方式，可以直接从`repo`安装R包：
-```R
+```shell
 withr::with_makevars(c(PKG_LIBS = "-liconv"), install.packages("haven"), assignment = "+=")
-with_makevars(c(PKG_CFLAGS = "-std=c11"), install.packages("plyr", repos = NULL, type = "source"), assignment = "+=")
 
+## or
+
+with_makevars(c(PKG_CFLAGS = "-std=c11"), install.packages("plyr", repos = NULL, type = "source"), assignment = "+=")
 ```
 要使用这个方法，只需要已经安装了`withr`，这个是`devtools`的依赖使用。
 
