@@ -50,9 +50,7 @@ Sys.getenv("LD_LIBRARY_PATH")
 ```R
 withr::with_makevars(c(PKG_LIBS = "-liconv"), install.packages("haven"), assignment = "+=")
 
-with_makevars(c(PKG_CFLAGS = "-std=c11"), 
-              install.packages("plyr", repos = NULL, type = "source"), 
-              assignment = "+=")
+with_makevars(c(PKG_CFLAGS = "-std=c11"), install.packages("plyr", repos = NULL, type = "source"), assignment = "+=")
 
 ```
 要使用这个方法，只需要已经安装了`withr`，这个是`devtools`的依赖使用。
