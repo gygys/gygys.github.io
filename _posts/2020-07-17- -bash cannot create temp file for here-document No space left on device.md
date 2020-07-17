@@ -100,7 +100,7 @@ PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
 到此，问题找到了，接下来进行处理。
 
 ## 解决方法
-首先关闭正在运行的`cupsd`进程，然后删除生成的错误日志文件，停掉`cpus`服务：
+首先关闭正在运行的`cupsd`进程，然后删除生成的错误日志文件，停掉`cpus`服务，把和`cpus`相关的配置文件和目录进行备份转移，重启`cpus`：
 ```shell
 sudo kill -9 3498
 sudo rm -rf /var/log/cups/error_log
@@ -108,7 +108,7 @@ sudo service cups stop
 sudo ls /etc/cups/subscriptions.conf* | xargs -t -i mv {} {}.bak
 sudo mv /var/cache/cups /var/cache/cups.bak
 sudo service cups start
-sudo chmod 000 /usr/sbin/cupsd
+# sudo chmod 000 /usr/sbin/cupsd 该步骤完全禁止cupsd进行执行选项
 ```
 
 这里需要注意下，删除完错误日志后，使用`df -h`不会立刻发现存储空间恢复过来了，过一段时间才能看到，但是使用TAB进行自动补全已经没有问题了。
