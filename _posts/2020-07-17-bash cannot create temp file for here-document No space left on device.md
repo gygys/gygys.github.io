@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      -bash: cannot create temp file for here-document: No space left on device
+title:      bash: cannot create temp file for here-document: No space left on device
 subtitle:    ubuntu, storage
 date:       2020-07-17
 author:     dulunar
@@ -12,7 +12,7 @@ tags:
 ---
 
 
-# -bash: cannot create temp file for here-document: No space left on device
+# bash: cannot create temp file for here-document: No space left on device
 
 在Ubuntu下想使用Tab键进行文件的自动补全，出现错误代码：
 ```shell
