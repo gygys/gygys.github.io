@@ -46,4 +46,15 @@ fusermount -zu gvfs
 
 接下来重新运行`df -h`或者`ls /run/user/1001/gvfs`，都是正常显示了，现在看问题解决了。
 
+## 参考
 
+[Linux Bash 自动补全][1]
+[【Bash百宝箱】shell命令行自动补全（compgen、complete、compopt）][2]
+[Linux Shell命令自动补全的实现][3]
+
+[1]: https://jin-yang.github.io/post/linux-bash-auto-completion-introduce.html
+[2]: https://blog.csdn.net/iEearth/article/details/52703598
+[3]: https://cloud.tencent.com/developer/article/1555238
+
+
+									—— dulunar 后记于 2020.07
