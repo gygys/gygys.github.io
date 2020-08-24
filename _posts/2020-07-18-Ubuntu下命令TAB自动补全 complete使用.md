@@ -283,16 +283,25 @@ COMP_LINE  字符串	当前的命令行输入字符
 COMP_POINT 整数		光标在当前命令行的哪个位置
 ```
 
+## GATK自动补全
+GATK的Tool太多了，每次都不一定能很好的找到，在gatk的目录下面发现了一个好东西：
+```shell
+ls /home/luna/Desktop/Software/gatk/gatk-4.1.8.1/gatk-completion.sh
+echo "source /home/luna/Desktop/Software/gatk/gatk-4.1.8.1/gatk-completion.sh" >> ~/.bashrc
+```
+稍微测试了一下，还是比较好用的，就是太卡了，应该是我服务器负载太高的原因，大家可以测试一下，虽然这个功能还是处于Beta阶段。
+
 ## 参考
 
 [Linux Bash 自动补全][1]
 [【Bash百宝箱】shell命令行自动补全（compgen、complete、compopt）][2]
 [Linux Shell命令自动补全的实现][3]
+[Bash Command-line Tab Completion][4]
 
 [1]: https://jin-yang.github.io/post/linux-bash-auto-completion-introduce.html
 [2]: https://blog.csdn.net/iEearth/article/details/52703598
 [3]: https://cloud.tencent.com/developer/article/1555238
-
+[4]: https://github.com/broadinstitute/gatk#tab_completion
 
 									—— dulunar 后记于 2020.07
 
