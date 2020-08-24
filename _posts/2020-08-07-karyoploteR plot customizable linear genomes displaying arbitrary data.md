@@ -1,14 +1,14 @@
 ---
 layout:     post
-title:      Ubuntu下bash自动补全命令参数
-subtitle:    ubuntu, storage
+title:      karyoploteR plot customizable linear genomes displaying arbitrary data
+subtitle:    r, genomes
 date:       2020-07-17
 author:     dulunar
 header-img: img/post-bg-debug.png
 catalog: true
 tags:
-    - Ubuntu
-    - File system
+    - r
+    - genomes
 ---
 
 
