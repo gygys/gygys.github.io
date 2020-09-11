@@ -76,7 +76,9 @@ for id in SRR799545  SRR799544;    do pfastq-dump --threads 10 -s $id --split-3 
 因为上述所说的`pfastq-dump`没有达到我的目标，在`ncbi`的官方工具中，发现最新版的sratoolkit中有一个`fasterq-dump，a faster fastq-dump`的软件，[官方介绍在这里](https://github.com/ncbi/sra-tools/wiki/HowTo:-fasterq-dump)，从官方介绍中可以发现`fasterq-dump`利用了临时文件和多线程的方式来提升提取`fastq`文件的速度，而且`fasterq-dump`的用法和`fastq-dump`是一样的，例子如下：
 
 ```shell
-##建议使用最新版，现在的sratool的最新稳定版本是2.9.6，在github上面的release版本是2.10.0，如果不愿意自己安装的可以到[ncbi官方ftp下载](https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/)，想自己在服务器上安装的请参考[官方介绍](https://github.com/ncbi/sra-tools/wiki/Building-and-Installing-from-Source)
+# 建议使用最新版，现在的sratool的最新稳定版本是2.9.6，在github上面的release版本是2.10.0
+# 如果不愿意自己安装的可以到[ncbi官方ftp下载](https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/)
+# 想自己在服务器上安装的请参考[官方介绍](https://github.com/ncbi/sra-tools/wiki/Building-and-Installing-from-Source)
 
 wget -O sratoolkit.tar.gz  https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
 tar xzvf sratoolkit.tar.gz
@@ -127,7 +129,9 @@ Options:
 ./bin/fasterq-dump : 2.9.6
 
 fasterq-dump --split-3 SRR799545.sra
-##使用过程中，大家都关心的参数来了，就是-e|threads，用于选择使用多少个线程来进行提取fastq文件，默认如上是6个线程。另外考虑到有人想查看提取进度，还提供了-p选项用于显示当前提取任务的进度。
+# 使用过程中，大家都关心的参数来了
+# 就是-e|threads，用于选择使用多少个线程来进行提取fastq文件，默认如上是6个线程
+# 另外考虑到有人想查看提取进度，还提供了-p选项用于显示当前提取任务的进度s
 fasterq-dump --split-3 SRR799545.sra -e 20 -p
 ```
 时间上来说，`fasterq-dump`确实会使用更少的时间，还可以设置memory、cache的大小来提速，但是有一个问题，如果大家进行大量文件提取的时候，一定要注意你的服务器的空闲的存储，因为`fasterq-dump`不提供--gzip的参数用于压缩文件，提取出来的fastq文件只是文本文件，记得压缩，减小存储压力。
