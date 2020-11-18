@@ -7,63 +7,87 @@
 >
 
 <url>
- <loc>https://dulunar.github.io/</loc>
+ <loc>http://dulunar.github.io/</loc>
  <priority>0.5</priority>
- <lastmod>2020-8-27</lastmod>
+ <lastmod>2020-11-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://dulunar.github.io/about/</loc>
+ <loc>http://dulunar.github.io/</loc>
  <priority>0.5</priority>
- <lastmod>2020-8-27</lastmod>
+ <lastmod>2020-11-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://dulunar.github.io/tags/</loc>
+ <loc>http://dulunar.github.io/about/</loc>
  <priority>0.5</priority>
- <lastmod>2020-8-27</lastmod>
+ <lastmod>2020-11-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://dulunar.github.io/2020/08/25/%E5%AF%B9%E5%8F%82%E8%80%83%E5%BA%8F%E5%88%97FASTA%E6%96%87%E4%BB%B6%E7%9A%84%E5%88%86%E6%9E%90%E5%92%8C%E5%A4%84%E7%90%86%E7%9A%84GATK%E5%B7%A5%E5%85%B7/</loc>
+ <loc>http://dulunar.github.io/tags/</loc>
  <priority>0.5</priority>
- <lastmod>2020-8-27</lastmod>
+ <lastmod>2020-11-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://dulunar.github.io/2020/08/23/Ubuntu%E4%BD%BF%E7%94%A8SMTP%E6%9D%A5%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</loc>
+ <loc>http://dulunar.github.io/2020/10/14/%E6%B5%8B%E5%BA%8F%E6%95%B0%E6%8D%AE%E7%9A%84%E6%B7%B1%E5%BA%A6-%E8%A6%86%E7%9B%96%E5%BA%A6%E7%AD%89%E8%AE%A1%E7%AE%97/</loc>
  <priority>0.5</priority>
- <lastmod>2020-8-27</lastmod>
+ <lastmod>2020-11-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://dulunar.github.io/2020/08/22/Ubuntu%E9%85%8D%E7%BD%AEFail2Ban%E9%98%B2%E6%AD%A2SSH%E7%88%86%E7%A0%B4/</loc>
+ <loc>http://dulunar.github.io/2020/10/09/%E7%89%A9%E7%A7%8D%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%A4%A7%E5%B0%8F%E6%9F%A5%E8%AF%A2/</loc>
  <priority>0.5</priority>
- <lastmod>2020-8-27</lastmod>
+ <lastmod>2020-11-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://dulunar.github.io/2020/07/18/Ubuntu%E4%B8%8B%E5%91%BD%E4%BB%A4TAB%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8-complete%E4%BD%BF%E7%94%A8/</loc>
+ <loc>http://dulunar.github.io/2020/08/31/%E9%80%89%E5%88%8A%E7%AB%99%E7%82%B9/</loc>
  <priority>0.5</priority>
- <lastmod>2020-8-27</lastmod>
+ <lastmod>2020-11-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://dulunar.github.io/2020/07/17/karyoploteR-plot-customizable-linear-genomes-displaying-arbitrary-data/</loc>
+ <loc>http://dulunar.github.io/2020/08/25/%E5%AF%B9%E5%8F%82%E8%80%83%E5%BA%8F%E5%88%97FASTA%E6%96%87%E4%BB%B6%E7%9A%84%E5%88%86%E6%9E%90%E5%92%8C%E5%A4%84%E7%90%86%E7%9A%84GATK%E5%B7%A5%E5%85%B7/</loc>
  <priority>0.5</priority>
- <lastmod>2020-8-27</lastmod>
+ <lastmod>2020-11-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://dulunar.github.io/2020/07/17/cannot-access-gvfs-Transport-endpoint-is-not-connected/</loc>
+ <loc>http://dulunar.github.io/2020/08/23/Ubuntu%E4%BD%BF%E7%94%A8SMTP%E6%9D%A5%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</loc>
  <priority>0.5</priority>
- <lastmod>2020-8-27</lastmod>
+ <lastmod>2020-11-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://dulunar.github.io/2020/07/17/bash-cannot-create-temp-file-for-here-document-No-space-left-on-device/</loc>
+ <loc>http://dulunar.github.io/2020/08/22/Ubuntu%E9%85%8D%E7%BD%AEFail2Ban%E9%98%B2%E6%AD%A2SSH%E7%88%86%E7%A0%B4/</loc>
  <priority>0.5</priority>
- <lastmod>2020-8-27</lastmod>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/2020/07/18/Ubuntu%E4%B8%8B%E5%91%BD%E4%BB%A4TAB%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8-complete%E4%BD%BF%E7%94%A8/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/2020/07/17/karyoploteR-%E4%B8%AA%E6%80%A7%E5%8C%96%E7%9A%84%E7%BA%BF%E6%80%A7%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/2020/07/17/cannot-access-gvfs-Transport-endpoint-is-not-connected/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/2020/07/17/bash-cannot-create-temp-file-for-here-document-No-space-left-on-device/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 <url>
@@ -253,9 +277,159 @@
  <changefreq>weekly</changefreq>
 </url>
 <url>
- <loc>https://dulunar.github.io/page3</loc>
+ <loc>http://dulunar.github.io/page2</loc>
  <priority>0.5</priority>
- <lastmod>2020-8-27</lastmod>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/tags/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://dulunar.github.io/about/</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://www.jianshu.com/u/79150c347235</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://www.zhihu.com/people/dulunar</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>http://www.biotrainee.com</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://vip.biotrainee.com</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://www.jianshu.com/u/79150c347235</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://www.jianshu.com/u/79150c347235</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://www.zhihu.com/people/dulunar</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+<url>
+ <loc>https://github.com/dulunar/dulunar.github.io.git</loc>
+ <priority>0.5</priority>
+ <lastmod>2020-11-18</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 </urlset>
