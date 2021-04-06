@@ -31,6 +31,6 @@ end
 gem "wdm", ">= 0.1.0" if Gem.win_platform?
 gem "jekyll-sitemap"
 gem "activesupport", ">= 4.1.11"
-gem "kramdown", ">= 2.3.0"
+gem "kramdown", ">= 2.3.1"
 gem "nokogiri", ">= 1.11.0"
 gem "github-pages", group: :jekyll_plugins
