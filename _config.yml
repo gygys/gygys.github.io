@@ -44,7 +44,6 @@ paginate: 10
 exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md", "xxx", "changelog.md", "nohup.out"]
 anchorjs: true       # if you want to customize anchor. check out line:181 of `post.html`
 
-
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 plugins: [jekyll-paginate]
@@ -58,6 +57,10 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM          # use Github Flavored Markdown !important
+
+# 请到revolvermaps [http://www.revolvermaps.com/?target=setupgl](http://www.revolvermaps.com/?target=setupgl)申请自己的网站ID并在此处替换，否则将无法正常统计访问量
+revolvermaps: 54tupfmrwn6
+
 
 # 评论系统
 # Disqus（https://disqus.com/）
