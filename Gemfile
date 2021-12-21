@@ -33,7 +33,9 @@ gem "jekyll-sitemap"
 gem "jekyll-last-modified-at"
 gem "activesupport", ">= 4.1.11"
 gem "kramdown", ">= 2.3.1"
-gem "nokogiri", ">= 1.11.4"
+gem "nokogiri", ">= 1.12.5"
 gem "rubyzip", ">= 1.0.0"
+gem 'zip-zip'
 gem "addressable", ">= 2.8.0"
+
 gem "github-pages", group: :jekyll_plugins
