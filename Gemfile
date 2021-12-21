@@ -39,3 +39,4 @@ gem 'zip-zip'
 gem "addressable", ">= 2.8.0"
 
 gem "github-pages", group: :jekyll_plugins
+gem "webrick", "~> 1.7"
