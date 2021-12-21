@@ -37,6 +37,5 @@ gem "nokogiri", ">= 1.12.5"
 gem "rubyzip", ">= 1.0.0"
 gem 'zip-zip'
 gem "addressable", ">= 2.8.0"
-
+gem "webrick", "~> 1.7.0"
 gem "github-pages", group: :jekyll_plugins
-gem "webrick", "~> 1.7"
