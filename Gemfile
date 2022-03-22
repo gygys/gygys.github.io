@@ -38,5 +38,5 @@ gem "rubyzip", ">= 1.0.0"
 gem 'zip-zip'
 gem "addressable", ">= 2.8.0"
 gem "webrick", "~> 1.7.0"
-gem "commonmarker", "~> 0.17.6"
+gem "commonmarker", ">= 0.23.4"
 gem "github-pages", group: :jekyll_plugins
