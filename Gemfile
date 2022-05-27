@@ -39,4 +39,5 @@ gem 'zip-zip'
 gem "addressable", ">= 2.8.0"
 gem "webrick", "~> 1.7.0"
 gem "commonmarker", ">= 0.23.4"
+gem "grunt", ">= 1.5.2"
 gem "github-pages", group: :jekyll_plugins
