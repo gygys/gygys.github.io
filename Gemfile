@@ -21,9 +21,7 @@ end
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo"
-#, "~> 1.2"
-  gem "tzinfo-data"
+    gem "tzinfo-data"
 end
 
 # Performance-booster for watching directories on Windows
@@ -39,5 +37,6 @@ gem 'zip-zip'
 gem "addressable", ">= 2.8.0"
 gem "webrick", "~> 1.7.0"
 gem "commonmarker", ">= 0.23.4"
-gem "grunt", ">= 1.5.2"
+gem "tzinfo", "~> 1.2"
+
 gem "github-pages", group: :jekyll_plugins
