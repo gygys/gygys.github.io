@@ -10,8 +10,9 @@
     },
     "bugs": "https://github.com/dulunar/dulunar.github.io/issues",
     "dependencies": {
-				"grunt": ">=1.5.3"
-	},
+        "grunt": ">=1.5.3",
+        "shelljs": "^0.8.5"
+    },
     "devDependencies": {
         "grunt": ">=1.5.3",
         "grunt-banner": "^0.2.3",
